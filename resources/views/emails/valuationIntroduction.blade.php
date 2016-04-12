@@ -1,0 +1,1 @@
+Thank you {{$data['name']}} for getting in contact with us for a free home valuation. We are gathering information for you home located at {{$data['address']}}, and will have your valuation sent over very soon.

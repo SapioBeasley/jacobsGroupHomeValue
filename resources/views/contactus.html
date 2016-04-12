@@ -1,0 +1,488 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Doctor Directory</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/transitions.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+		<a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="wrapper" class="tg-haslayout">
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="header" class="tg-haslayout tg-inner-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="tg-navigationarea tg-haslayout">
+							<strong class="logo">
+								<a href="index.html"><img src="images/logo.png" alt="image description"></a>
+							</strong>
+							<nav id="tg-nav" class="tg-nav">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div class="collapse navbar-collapse" id="tg-navigation">
+								<ul>
+									<li>
+										<a href="contactus.html#">Home</a>
+										<ul>
+											<li><a href="index.html">Home 1</a></li>
+											<li><a href="index2.html">Home 2</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="contactus.html#">doctors</a>
+										<ul>
+											<li><a href="doctor-listview.html">List View</a></li>
+											<li><a href="doctor-listview2.html">List View 2</a></li>
+											<li><a href="doctor-gridview.html">Grid View</a></li>
+											<li><a href="doctor-gridview2.html">Grid View 2</a></li>
+											<li><a href="doctor-detail.html">Doctor Detail</a></li>
+											<li><a href="doctor-detail2.html">Doctor Detail 2</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="contactus.html#">Blog</a>
+										<ul>
+											<li><a href="blog-list.html">Blog List</a></li>
+											<li><a href="blog-grid.html">Blog Grid</a></li>
+											<li><a href="blog-detail.html">Blog Detail</a></li>
+										</ul>
+									</li>
+									<li><a href="packages.html">packages</a></li>
+									<li><a href="contactus.html">Contact</a></li>
+									<li>
+										<a href="contactus.html#" data-toggle="modal" data-target=".tg-user-modal"><i class="fa fa-user-plus"></i></a>
+										<span><a href="contactus.html#" data-toggle="modal" data-target=".tg-user-modal">login/signup</a></span>
+										</li>
+									<li>
+										<a href="contactus.html#">
+											<i class="fa fa-navicon"></i>
+											<i>pages</i>
+										</a>
+										<ul>
+											<li><a href="404.html">404</a></li>
+											<li><a href="comming-soon.html">comming soon</a></li>
+											<li><a href="dashboard.html">dashboard</a></li>
+											<li><a href="dashboard-profile.html">dashboard profile</a></li>
+											<li><a href="dashboard-schedule.html">dashboard schedule</a></li>
+											<li><a href="dashboard-myaccount.html">dashboard account</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--************************************
+				Header End
+		*************************************-->
+		<!--************************************
+				Home Slider Start
+		*************************************-->
+		<div id="tg-innerbanner" class="tg-innerbanner tg-bglight tg-haslayout">
+			<div class="tg-searcharea tg-haslayout">
+				<div class="container">
+					<div class="row">
+						<form class="tg-searchform">
+							<div class="col-md-5 col-sm-5 col-xs-12">
+								<div class="form-group">
+									<input type="text" placeholder="Address" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-5 col-sm-5 col-xs-8">
+								<div class="form-group">
+									<span class="select">
+										<select id="group1" class="group">
+											<option>Catagory</option>
+											<option>Doctor one</option>
+											<option>Doctor two</option>
+											<option>Doctor three</option>
+										</select>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-4">
+								<div class="form-group">
+									<a id="search_banner" class="tg-btn tg-btn-lg" href="contactus.html#">Search</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="tg-pagebar tg-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1>contact</h1>
+							<ol class="tg-breadcrumb">
+								<li><a href="contactus.html#">Home</a></li>
+								<li class="active">contact</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Home Slider End
+		*************************************-->
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="main" class="tg-main-section tg-haslayout">
+			<div class="tg-postionabsulote">
+				<div class="col-md-5 col-sm-12 col-xs-12 tg-divheight pull-left">
+					<div class="row tg-divheight">
+						<div class="tg-mapbox">
+							<div id="map_canvas" class="tg-location-map tg-haslayout"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-12 col-xs-12 pull-right">
+						<div class="tg-contactus tg-haslayout">
+							<div class="tg-search-categories">
+							<div class="row">
+								<div class="col-sm-6 col-xs-12 tg-expectwidth">
+									<div class="tg-search-category">
+										<div class="tg-displaytable">
+											<div class="tg-displaytablecell">
+												<div class="tg-box">
+													<h3>Our location</h3>
+													<img src="images/contact-us.png" alt="image description">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-xs-12 tg-expectwidth">
+									<div class="tg-search-category">
+										<div class="tg-displaytable">
+											<div class="tg-displaytablecell">
+												<div class="tg-box">
+													<h3>Contact Info</h3>
+													<address>123 Eccles Old Road, Uk, M6 7AF</address>
+													<span>+44 235 856843</span>
+													<span>+44 235 856843</span>
+													<a href="contactus.html#">admin@company.com</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+							<div class="tg-refinesearcharea">
+								<div class="tg-heading-border tg-small">
+									<h2>refine search</h2>
+								</div>
+								<form class="form-refinesearch tg-haslayout">
+									<fieldset>
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<input type="email" class="form-control" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="Phone">
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<span class="select">
+														<select class="group">
+															<option>Catagory</option>
+															<option>Doctor one</option>
+															<option>Doctor two</option>
+															<option>Doctor three</option>
+														</select>
+													</span>
+												</div>
+											</div>
+											<div class="col-sm-12">
+												<div class="form-group">
+													<textarea class="form-control" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<button type="submit" class="tg-btn">apply fillter</button>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--************************************
+				Main End
+		*************************************-->
+		<!--************************************
+				Footer Start
+		*************************************-->
+		<footer id="footer" class="tg-haslayout">
+			<div class="tg-threecolumn">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="tg-footercol">
+								<strong class="logo">
+									<a href="contactus.html#">
+										<img src="images/logo2.png" alt="image description">
+									</a>
+								</strong>
+								<div class="tg-description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboret dolore magna aliqua.</p>
+								</div>
+								<ul class="tg-info">
+									<li>
+										<i class="fa fa-home"></i>
+										<address>123 Eccles Old Road, New Salford Road, East London, Uk, M6 7AF</address>
+									</li>
+									<li>
+										<i class="fa fa-envelope"></i>
+										<em><a href="contactus.html#">info@domain.com</a></em>
+									</li>
+									<li>
+										<i class="fa fa-phone"></i>
+										<em><a href="contactus.html#">+44 123 456 788 - 9</a></em>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="tg-footercol">
+								<div class="tg-heading-border tg-small">
+									<h4>featured doctors</h4>
+								</div>
+								<div class="tg-widget tg-featured-doctore">
+									<ul>
+										<li>
+											<figure class="tg-imgdoc">
+												<img src="images/img-02.jpg" alt="image description">
+												<div class="tg-img-hover">
+													<a href="contactus.html#"><i class="icon-zoom"></i></a>
+												</div>
+											</figure>
+											<div class="tg-docinfo">
+												<span class="tg-docname"><a href="contactus.html#">Dr. Jennifer Bada-Ellzey, MD, MPH</a></span>
+												<span class="tg-stars">
+													<em>Ranking:</em>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</span>
+												<div class="tg-designation">
+													<p><a href="contactus.html#">Family &amp; Community Medicine</a></p>
+												</div>
+											</div>
+										</li>
+										<li>
+											<figure class="tg-imgdoc">
+												<img src="images/img-03.jpg" alt="image description">
+												<div class="tg-img-hover">
+													<a href="contactus.html#"><i class="icon-zoom"></i></a>
+												</div>
+											</figure>
+											<div class="tg-docinfo">
+												<span class="tg-docname"><a href="contactus.html#">Dr. Curtis O. Ballard, MD</a></span>
+												<span class="tg-stars">
+													<em>Ranking:</em>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+													<i class="fa fa-star-o"></i>
+												</span>
+												<div class="tg-designation">
+													<p><a href="contactus.html#">Orthopaedic Surgery &amp; Sports Medicine</a></p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="tg-footercol">
+								<div class="tg-heading-border tg-small">
+									<h4>Useful links</h4>
+								</div>
+								<div class="tg-widget tg-usefullinks">
+									<ul>
+										<li><a href="contactus.html#">About Us</a></li>
+										<li><a href="contactus.html#">Latest Blog</a></li>
+										<li><a href="contactus.html#">Terms and Conditions</a></li>
+										<li><a href="contactus.html#">Privacy Policy</a></li>
+										<li><a href="contactus.html#">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tg-footerbar tg-haslayout">
+				<div class="tg-copyrights">
+					<p>2015 All Rights Reserved © DocDirect</p>
+				</div>
+			</div>
+		</footer>
+		<!--************************************
+				Footer End
+		*************************************-->
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<!--************************************
+		Sign In Sign Up Light Box Start
+	*************************************-->
+		<div class="modal fade tg-user-modal" tabindex="-1" role="dialog">
+		<div class="tg-modal-content">
+			<ul class="tg-modaltabs-nav" role="tablist">
+				<li role="presentation" class="active"><a href="contactus.html#tg-signin-formarea" aria-controls="tg-signin-formarea" role="tab" data-toggle="tab">sign in</a></li>
+				<li role="presentation"><a href="contactus.html#tg-signup-formarea" aria-controls="tg-signup-formarea" role="tab" data-toggle="tab">sign up</a></li>
+			</ul>
+			<div class="tab-content tg-haslayout">
+				<div role="tabpanel" class="tab-pane tg-haslayout active" id="tg-signin-formarea">
+					<form class="tg-form-modal tg-form-signin">
+						<fieldset>
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email Address">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" placeholder="Password">
+							</div>
+							<div class="form-group tg-checkbox">
+								<label>
+									<input type="checkbox" class="form-control">
+									Remember Me
+								</label>
+								<a class="tg-forgot-password" href="contactus.html#">
+									<i>Forgot Password</i>
+									<i class="fa fa-question-circle"></i>
+								</a>
+							</div>
+							<button class="tg-btn tg-btn-lg">LOGIN now</button>
+						</fieldset>
+					</form>
+				</div>
+				<div role="tabpanel" class="tab-pane tg-haslayout" id="tg-signup-formarea">
+					<form class="tg-form-modal tg-form-signup">
+						<fieldset>
+							<div class="form-group">
+								<span class="select">
+									<select>
+										<option>Doctor one</option>
+										<option>Doctor two</option>
+										<option>Doctor three</option>
+									</select>
+								</span>
+							</div>
+							<div class="form-group">
+								<span class="select">
+									<select>
+										<option>Specialty*</option>
+										<option>Specialty two</option>
+										<option>Specialty three</option>
+									</select>
+								</span>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="First Name">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="last Name">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Phone Number">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="ZIP Code">
+							</div>
+							<div class="form-group tg-checkbox">
+								<label>
+									<input type="checkbox" class="form-control">
+									I agree with the terms and conditions
+								</label>
+							</div>
+							<button class="tg-btn tg-btn-lg">Create an Account</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--************************************
+		Sign In Sign Up Light Box End
+	*************************************-->
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="js/map/jquery.gomap.js"></script>
+	<script src="js/map/markerclusterer.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/prettyPhoto.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/countTo.js"></script>
+	<script src="js/map/map.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
