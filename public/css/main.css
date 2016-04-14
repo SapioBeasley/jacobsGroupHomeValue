@@ -5,7 +5,7 @@
  is the file you need to edit to change the look of the
  theme.
  However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
+
  This files contents are outlined below.
  01.	Theme Reset Style
  02.	Global Elements
@@ -896,7 +896,7 @@ form fieldset .form-group.tg-checkbox input.form-control[type='checkbox'] {
 #header{}
 .logo {
 	float: left;
-	padding: 35px 0;
+	padding: 20px 0;
 }
 .logo a {display: block;}
 .logo a img {display: block;}
@@ -919,7 +919,7 @@ form fieldset .form-group.tg-checkbox input.form-control[type='checkbox'] {
 }
 .tg-nav ul li{
 	float: left;
-	padding: 40px 20px;
+	padding: 35px 20px;
 	position: relative;
 	line-height: inherit;
 	list-style-type: none;
@@ -933,7 +933,7 @@ form fieldset .form-group.tg-checkbox input.form-control[type='checkbox'] {
 	margin: -7px 0 0;
 	position: absolute;
 	background: #5d5955;
-	
+
 }
 .tg-nav ul li span{display: none;}
 .tg-nav #tg-navigation > ul > li:last-child{padding-right: 0;}
@@ -942,6 +942,7 @@ form fieldset .form-group.tg-checkbox input.form-control[type='checkbox'] {
 	display: block;
 	color: #5d5955;
 	line-height: inherit;
+	font-size: 20px;
 }
 .tg-nav ul li:last-child a i:first-child{display: block;}
 .tg-nav ul li:last-child a i{
@@ -3017,7 +3018,7 @@ textarea.form-control{
 .tg-regardsleft{float: left;}
 
 .tg-regardsleft em{
-	
+
 	font-style: normal;
 	color: #5d5955;
 }

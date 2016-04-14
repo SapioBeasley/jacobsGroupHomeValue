@@ -6,12 +6,12 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<strong class="logo">
-					<a href="{{route('step1')}}"><img src="images/logo.png" alt="image description"></a>
+					<a href="{{route('step1')}}"><img src="images/logo.png" alt="image description" style="height: 65px"></a>
 				</strong>
 				<nav id="tg-nav" class="tg-nav">
 					<div class="collapse navbar-collapse" id="tg-navigation">
 						<ul>
-							<li><a href="index.html#" data-toggle="modal" data-target=".tg-user-modal">Give us a Call</a></li>
+							<li><a href="index.html#" data-toggle="modal" data-target=".tg-user-modal"><small style="font-size: 70%;">Give us a Call</small><br>702-442-0055</a></li>
 						</ul>
 					</div>
 				</nav>
