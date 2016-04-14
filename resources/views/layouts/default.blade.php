@@ -24,26 +24,48 @@
 		<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 	</head>
 	<body>
-	<!--[if lt IE 8]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<div id="wrapper" class="tg-haslayout">
 
-		@yield('header')
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
 
-		@yield('content')
+		<div id="wrapper" class="tg-haslayout">
 
-	</div>
-	<script src="js/vendor/jquery-library.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/jquery-ui.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script src="js/map/jquery.gomap.js"></script>
-	<script src="js/map/markerclusterer.min.js"></script>
-	<script src="js/jquery.nicescroll.js"></script>
-	<!-- <script src="js/appear.js"></script> -->
-	<script src="js/main.js"></script>
+			@yield('header')
 
-	@yield('mapScript')
+			@yield('content')
+
+		</div>
+
+		<script src="js/vendor/jquery-library.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script>
+
+			var placeSearch, autocomplete;
+			var componentForm = {
+				street_number: 'short_name',
+				route: 'long_name',
+				locality: 'long_name',
+				administrative_area_level_1: 'short_name',
+				country: 'long_name',
+				postal_code: 'short_name'
+			};
+
+		      function initAutocomplete() {
+				autocomplete = new google.maps.places.Autocomplete(
+					/** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),
+					{types: ['geocode']});
+		      }
+
+	    	</script>
+		<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=places&callback=initAutocomplete"></script>
+		<script src="js/map/jquery.gomap.js"></script>
+		<script src="js/map/markerclusterer.min.js"></script>
+		<script src="js/jquery.nicescroll.js"></script>
+		<script src="js/main.js"></script>
+
+		@yield('mapScript')
+
 	</body>
 </html>

@@ -15,6 +15,10 @@ class StepsController extends Controller
 
 	public function step2 (Request $request)
 	{
+		$this->validate($request, [
+			'address' => 'required',
+		]);
+
 		$geocode = new Geocode;
 	    	$geocode = $geocode->getCoordinates($request->address);
 
@@ -28,6 +32,13 @@ class StepsController extends Controller
 	public function contactPost(Request $request)
 	{
 		$data = $request->all();
+
+		$this->validate($request, [
+			'name' => 'required',
+			'email' => 'required',
+			'phone' => 'required',
+			'timeframe' => 'required',
+		]);
 
 		\Mail::send('emails.valuationIntroduction', ['data' => $data], function ($m) use ($data) {
 			$m->from(env('EMAIL'), 'Jacobs Group Vegas');
