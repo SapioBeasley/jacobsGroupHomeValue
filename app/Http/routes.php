@@ -25,3 +25,8 @@ Route::post('/contact', [
 	'as' => 'contact.post',
 	'uses' => 'StepsController@contactPost'
 ]);
+
+
+Route::get('test', function () {
+	Bugsnag::notifyError('ErrorType', 'Test Error');
+});
