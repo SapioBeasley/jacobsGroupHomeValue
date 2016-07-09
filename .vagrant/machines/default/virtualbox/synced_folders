@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/jacobsgrouphomevalue":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/jacobsgrouphomevalue","hostpath":"/Users/andreasbeasley/sites/jacobsGroupHomeValue","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/andreasbeasley/sites/jacobsGroupHomeValue","disabled":false,"__vagrantfile":true}}}
